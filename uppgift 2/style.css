@@ -1,0 +1,82 @@
+body {
+	background: url(background.jpg);
+	font: 15px tahoma;
+}
+
+header {
+	top: 0;
+	position: fixed;
+	padding-top: 1px;
+	padding-bottom: 20px;
+	background: url(top.jpg);
+	background-size: cover;
+	height: 120px;
+	width: 100%;
+	background-color: lightgrey;
+	color: #337DFF;
+	font-style: italic;
+	font-size: 19px;
+}
+
+.summary {
+	margin-top: 155px;
+}
+
+h3 {
+	font-size: 20px;
+	color: #CB9011;
+}
+
+footer {
+	position: relative;
+	text-align: center;
+	border: 2px solid; 
+	border-radius: 25px 50px 15px;
+	width: 200px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	left: 350px;
+}
+
+
+.sidebar {
+	bottom: 0;
+	position: sticky;
+	background: url(sidebarbild.jpg);
+	height: 300px;
+	font-size: 17px;
+	font-weight: bold;
+	color: #CB9011;
+}
+
+.sidebar .design-selection {
+	position: absolute;
+    font-size: 16px;
+}
+
+.sidebar .design-archives {
+	position: absolute;
+    font-size: 16px;
+	left: 410px;
+}
+
+.sidebar .zen-resources {
+	position: absolute;
+	font-size: 16px;
+	left: 650px;
+}
+
+a:link { 
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: black;
+	}
+a:visited { 
+	font-weight: bold; 
+	text-decoration: underline; 
+	color: black;
+	}
+a:hover, a:focus, a:active { 
+	text-decoration: underline; 
+	color: black;
+	}
